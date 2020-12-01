@@ -1,0 +1,373 @@
+﻿body,
+html {
+  height: 100%;
+  margin: 0;
+  font-size: max(1vh, 8px);
+  color: #000c3c;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Orbitron", sans-serif;
+  text-align: left;
+}
+
+h4 {
+  font-size: 3rem;
+  letter-spacing: 0.03em;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  letter-spacing: 0.02em;
+}
+
+strong {
+  color: #284bf9;
+  font-weight: bolder;
+}
+
+button {
+  font-family: "Orbitron", sans-serif;
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #000c3c;
+  width: 14em;
+  height: 4em;
+  background-color: #ffd333;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #edbe13;
+}
+
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: max(100vh, 600px);
+  width: 100vw;
+  display: flex;
+}
+
+/*----------first pic-------*/
+
+.hero-text {
+  width: 60%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.hero-text h1 {
+  margin: 50vh 2vw 1vh auto;
+
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em;
+  text-align: right;
+}
+.hero-text img {
+  margin: 0 0 0 auto;
+  width: 30em;
+  height: auto;
+}
+
+.hero-text button {
+  margin: 15vh auto 0 auto;
+}
+
+.hero-text h1 {
+  margin: 50vh 2vw 1vh auto;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1em;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+/*----------second pic------------------*/
+
+.take-everywhere-text {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: flex-start;
+}
+
+.take-everywhere-text h4 {
+  margin-top: 4em;
+}
+
+.take-everywhere-text button {
+  margin: 2em auto;
+}
+
+/* -------------- third pic ------------------------------- */
+
+.for-on-the-go-text {
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  margin: auto 45vw auto 15vw;
+  align-content: flex-end;
+}
+
+.for-on-the-go-text h4 {
+  color: white;
+}
+
+.for-on-the-go-text p {
+  color: white;
+}
+
+/* -------------- forth section ------------------------------- */
+
+.enjoy-the-view {
+  background-image: url("./assets/two-friends-talking-web.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: max(100vh, 600px);
+  width: 100vw;
+  display: flex;
+}
+
+.enjoy-the-view-text {
+  max-width: 500px;
+  margin: auto 5vw auto 65vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.enjoy-the-view-text button {
+  margin: 2em auto;
+}
+
+.two-friends-talking-image {
+  margin: 10vh 0 10vh 0;
+  height: auto;
+  width: 100vw;
+  display: none;
+}
+
+/* -------------- fifth section ------------------------------- */
+.wrap-images {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.part-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: max(100vh, 600px);
+  width: 50%;
+  display: flex;
+}
+
+.bikepacking-text {
+  max-width: 500px;
+  width: 86%;
+  margin: 0 auto;
+}
+
+.bikepacking-text h4 {
+  margin-top: 3em;
+}
+
+.bikepacking-text button {
+  margin: 50vh auto 0 auto;
+}
+
+/* -------------------- seventh section ------------------------ */
+.full-video {
+  height: 70vh;
+  width: 100vw;
+}
+
+/* ---------------- slides -----------------------------*/
+.people-love-it {
+  width: 100vw;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.people-love-it h4 {
+  margin: 3em auto 1em auto;
+}
+
+.people-love-it button {
+  margin: 3em auto;
+}
+
+.person {
+  background-color: #f0f0f0;
+  width: 90%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-content: center;
+  justify-content: center;
+}
+
+.partly-covered {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  width: 100%;
+  background: linear-gradient(to top, #f0f0f0 50%, white 50%);
+}
+
+.person img {
+  margin: auto;
+  border-radius: 50%;
+  border: 1em solid white;
+  max-width: 10em;
+  height: 10em;
+}
+
+.person h5 {
+  margin: 5% auto;
+  width: 90%;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+
+.person p {
+  margin: 5% auto;
+  width: 90%;
+  font-size: 1.6em;
+}
+
+.button-box {
+  margin: 5% auto;
+}
+
+#button-slides {
+  width: 3em;
+  height: 3em;
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#button-slides p {
+  margin: auto;
+}
+
+/* -----------------images-----------------------------*/
+#header {
+  background-image: url("./assets/header.jpeg");
+}
+
+#take-everywhere {
+  background-image: url("./assets/take-everywhere-web.jpg");
+}
+
+#for-on-the-go {
+  background-color: #000c3c;
+  background-image: url("./assets/layon-sleeping-pad-web.png");
+}
+
+#bikepacking {
+  background-image: url("./assets/bikepacking.jpg");
+}
+
+#terrain {
+  background-image: url("./assets/terrain.jpg");
+}
+
+#video-overlay {
+  background-image: url("./assets/terrain.jpg");
+}
+
+@media only screen and (max-width: 60vh) {
+  .hero-text {
+    width: 90%;
+  }
+
+  .take-everywhere-text {
+    max-width: 86%;
+  }
+
+  .take-everywhere-text h4 {
+    margin-top: 2em;
+  }
+
+  .for-on-the-go-text {
+    margin: auto 45vw auto 7vw;
+  }
+
+  #for-on-the-go {
+    background-image: url("./assets/layon-sleeping-pad-mobile.png");
+  }
+}
+
+@media only screen and (max-width: 100vh) {
+  /* ----------- forth section ------------- */
+
+  .enjoy-the-view {
+    background-image: none;
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .enjoy-the-view-text {
+    max-width: none;
+    width: 86%;
+    display: flex;
+    margin: 5vh auto auto auto;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .two-friends-talking-image {
+    margin: 10vh 0 10vh 0;
+    height: auto;
+    width: 100vw;
+    display: flex;
+  }
+
+  /* ----------- fifth section ------------- */
+
+  .part-image {
+    width: 100vw;
+  }
+
+  /* --------------slides ----------------------*/
+  .person {
+  }
+}

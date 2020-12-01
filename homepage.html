@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Layon Homepage</title>
+
+    <link rel="stylesheet" href="homepage.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-image" id="header">
+        <div class="hero-text">
+            <h1>LayOn<br />the best sleeping<br />pad for bikers</h1>
+            <img src="./assets/lines.png" />
+            <button>Shop now</button>
+        </div>
+    </div>
+
+
+    <div class="hero-image" id="take-everywhere">
+        <div class="take-everywhere-text">
+            <h4>A sleeping pad you can take <strong>everywhere.</strong></h4>
+            <p>Ever had does long tours packed with adventure? You really want to finally take a rest, but you are <strong>too tired</strong> to do anything.</p>
+            <p>In the end, you decide on sitting on the hard, cold ground, not really getting the proper rest you need. And when you finally do get up, you realize your favourite biking trousers are dirty.</p>
+            <p>If you are like us and have trouble properly relaxing in the wild, you will love this sleeping pad. It's designed for veracious adventure seekers wanting to take <strong>proper rest</strong>.</p>
+            <button>Learn more</button>
+        </div>
+    </div>
+
+    <div class="hero-image" id="for-on-the-go">
+        <div class="for-on-the-go-text">
+            <h4>A sleeping pad for on the go</h4>
+            <p>If you are an <strong>adventure seeker</strong> like us, you will love this sleeping pad.</p>
+            <p>We have actually <strong>created it for ourselves</strong>, being on a bike the whole day it can be truly exhausting. Some days you just want to sit down enjoy the sun, the wind and the wild.</p>
+            <p>Unfortunately, conventional sleeping pads didn’t allow for a quick set up. Their blowing mechanism actually makes you never want to set it up ever again. You probably remember how <strong>out of breath</strong> you were, completely exhausted.</p>
+        </div>
+    </div>
+
+    <div class="enjoy-the-view">
+        <div class="enjoy-the-view-text">
+            <h4>Enjoy the view and watch your friends struggle</h4>
+            <p>Due to the pain that conventional sleeping pads have inflicted us, we decided to try a self-inflatable sleeping pad.</p>
+            <p>Well, that <strong>didn’t even fit</strong> on our bikes.</p>
+            <p>So finally, we gave up and made our own. After 18 different prototypes and a lot of hours, we made an exceptional sleeping pad, that we now use daily.</p>
+            <button>Learn more</button>
+        </div>
+        <img class="two-friends-talking-image" id="two-friends-talking" src="./assets/two-friends-talking.png" />
+    </div>
+
+    <div class="wrap-images">
+        <div class="part-image" id="bikepacking">
+            <div class="bikepacking-text">
+                <h4>Ideal for backpacking</h4>
+                <p>Start your <strong>bikepacking adventure</strong> with a sleeping pad that was created just for that.</p>
+            </div>
+        </div>
+
+        <div class="part-image" id="terrain">
+            <div class="bikepacking-text">
+                <h4>The king of rough terrain</h4>
+                <p>Go anywhere with a sleeping pad designed to withstand the <strong>roughest of terrain</strong>.</p>
+                <button>Visit shop</button>
+            </div>
+        </div>
+    </div>
+
+    <iframe class="full-video" src="https://www.youtube.com/embed/Xm-5VuaZxVg" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+    <div class="people-love-it">
+        <h4>Why do people love it?</h4>
+        <div class="person mySlides">
+            <div class="partly-covered">
+                <img src="./assets/avatar-3.png" />
+            </div>
+            <div>
+                <h5>Sally, 53</h5>
+                <p>“OMG, I have it at home, I use it all the time its so AWESOME!. No really its so cool. I had the problem, that I wouldn’t want to go biking, because my pants would get dirty. Yeah, I know I its silly. But now with LayOn I don’t have this problem anymore! Its so awesome!”</p>
+            </div>
+        </div>
+
+        <div class="person mySlides">
+            <div class="partly-covered">
+                <img src="./assets/avatar.png" />
+            </div>
+            <div>
+                <h5>Ben, 53</h5>
+                <p>“OMG, I have it at home, I use it all the time its so AWESOME!. No really its so cool. I had the problem, that I wouldn’t want to go biking, because my pants would get dirty. Yeah, I know I its silly. But now with LayOn I don’t have this problem anymore! Its so awesome!”</p>
+            </div>
+        </div>
+
+        <div class="person mySlides">
+            <div class="partly-covered">
+                <img src="./assets/avatar-2.png" />
+            </div>
+            <div>
+                <h5>Bob, 53</h5>
+                <p>“OMG, I have it at home, I use it all the time its so AWESOME!. No really its so cool. I had the problem, that I wouldn’t want to go biking, because my pants would get dirty. Yeah, I know I its silly. But now with LayOn I don’t have this problem anymore! Its so awesome!”</p>
+            </div>
+        </div>
+
+        <div class="person mySlides">
+            <div class="partly-covered">
+                <img src="./assets/avatar-3.png" />
+            </div>
+            <div>
+                <h5>Tammy, 53</h5>
+                <p>“This is unbeliveable! It is so awesome. ”</p>
+            </div>
+        </div>
+        <div class="button-box">
+            <button id="button-slides" onclick="plusDivs(-1)"><p>&#10094;</p></button>
+            <button id="button-slides" onclick="plusDivs(1)"><p>&#10095;</p></button>
+        </div>
+
+        <button>Visit shop</button>
+    </div>
+
+
+
+    <script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            x[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+
+
+
+
+</body>
+</html>
